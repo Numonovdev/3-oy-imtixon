@@ -1,0 +1,30 @@
+.header__container{
+     display: flex;
+     .text{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          gap: 40px;
+          width: 50%;
+          h1{
+               @extend %Exotext;
+               font-size: 52px;
+               line-height: 65px;
+          }
+          p{
+               @extend %ptsans;
+          }
+          a{
+               @extend %a_link;
+               display: inline-block;
+          }
+     }
+     .picture{
+          width: 50%;
+          img{
+               width: 100%;
+          }
+     }
+}
+
+

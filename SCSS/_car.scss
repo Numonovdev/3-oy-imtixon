@@ -1,0 +1,24 @@
+.car__container{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-image: url(../imges/car.png);
+     height: 667px;
+     background-repeat: no-repeat;
+     .img{
+          width: 60px;
+          height: 60px;
+          border-radius: 50%;
+          background-color: #fff;
+          display: flex;
+          box-sizing: border-box;
+          padding: 5px;
+          padding-left: 10px;
+          text-align: center;
+          align-items: center;
+          justify-content: center;
+          img{
+               text-align: center;
+          }
+     }
+}

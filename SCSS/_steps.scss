@@ -1,0 +1,52 @@
+.steps{
+     padding-top: 100px;
+     box-sizing: border-box;
+}
+.steps__container{
+     display: flex;
+     gap: 30px;
+     flex-direction: column;
+     h1{
+          @extend %Exotext;
+          font-size: 48px;
+          line-height: 60px;
+     }
+     .steps-block{
+          display: flex;
+          gap: 50px;
+          flex-direction: column;
+          margin-left: 70px;
+          .steps-box{
+               box-sizing: border-box;
+               align-items: center;
+               border-radius: 10px;
+               display: flex;
+               padding: 50px 100px;
+               justify-content: center;
+               
+               gap: 50px;
+               box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.12);
+          }
+          img{
+               width: 331px;
+          }
+          .steps-text{
+               display: flex;
+               gap: 15px;
+               flex-direction: column
+          }
+          .steps-text h4{
+               @extend %Exotext;
+               font-size: 20px;
+               line-height: 25px;
+          }
+          .steps-text .solid{
+               width: 88px;
+               border: 3px solid rgba(255, 206, 80, 1) ;
+          }
+          .steps-text p{
+               margin-top: 15px;
+               @extend %ptsans;
+          }
+     }
+}
